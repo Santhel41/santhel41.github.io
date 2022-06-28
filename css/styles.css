@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,700;1,100;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --blue: #2196F3;
+    --gray: #757575;
+    --black: #212121;
+}
+
+@font-face {
+    @font-face {
+        font-family: 'Roboto';
+        src: url('Roboto-ThinItalic-webfont.eot');
+    }
+}
+.logo{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    text-align: right;
+    letter-spacing: 0.03em;
+    
+    color: var(--blue);
+}
+
+header{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+ul{
+    list-style: none;
+    display: inline;
+}
+
+.menu, .contacts{
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    position: absolute;
+    height: 16px;
+    top: 32px;
+}
+
+.menu{
+    color: var(--black)
+    ;
+}
+.contacts{
+    color: var(--gray);
+}
+
+.menu:hover{
+    color: var(--blue);
+}
+.menu:focus{
+    color: var(--blue);
+}
+.contacts:hover{
+    color: var(--blue);
+}
+.contacts:focus{
+    color: var(--blue);
+}
+
+#enlaceIndex{
+    width: 49px;
+    left: 453px;  
+}
+
+#enlacePort{
+    width: 65px;
+    left: 552px;  
+}
+
+#enlaceCont{
+    width: 67px;
+    left: 667px;
+}
+
+#enlaceMail{
+    width: 135px;
+    left: 1078px;
+    
+}
+
+#enlaceTel{
+    width: 118px;
+    left: 1263px;
+    
+}
+
+#mainTitle{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 200px;
+    bottom: 280px;
+    right: 452px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.container{
+    position: absolute;
+    align-items: center;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+
+    background: #2F303A;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 395px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+button > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    flex: none;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+
+article > h4{
+    width: 270px;
+    height: 16px;
+    top: 775px;
+
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.titulosServ1, .contentServ1{
+    left: 215px;
+}   
+
+.titulosServ2, .contentServ2{
+    left: 515px;
+}
+
+.titulosServ3, .contentServ3{
+    left: 815px;  
+}
+
+.titulosServ4, .contentServ4{
+    left: 1115px;
+}
+
+article > p{
+    position: absolute;
+    width: 270px;
+    height: 96px;
+    top: 801px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+    color: var(--gray)
+}
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    position: absolute;
+    color: var(--black)
+}
+#subtitle1{
+    width: 371.15px;
+    height: 46.24px;
+    left: 619.43px;
+    top: 975px;
+
+}
+
+.imageList{
+    position: absolute;
+    width: 373.16px;
+    height: 323.7px;
+    top: 1092.3px;
+    mix-blend-mode: normal;
+}
+.img1{
+    left: 215px;
+}
+.img2{
+    left: 618.42px;
+}
+.img3{
+    left: 1015px;
+}
+
+#subtitle2{
+    width: 270px;
+    height: 42px;
+    left: 669px;
+    text-align: center;
+    top: 60px;
+}
+
+.meet_cards{
+    position: absolute;
+    width: 100%;
+    max-width: 1600px;
+    height: 648px;
+    top: 1510px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    background: #F5F4FA;
+    border-radius: 0px;
+    padding-top: 168px;
+}
+
+.meet_cards .wrp-img{
+    width: 270px;
+    height: 386px;
+    top: 1510px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    transition: all 0.25s;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background: #FFFFFF;
+}
+
+.meet_cards img{
+    width: 270px;
+    height: 260px;
+}
+
+.contenedor{
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500; font-size: 16px;
+    line-height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.contenedor h4{
+    font-weight: 500;
+    color: var(--black);
+}
+
+.contenedor p{
+    font-weight: 400;
+    color: var(--gray);
+}
+
+footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2158px;
+
+    background: #2F303A;
+}
+
+.foot{
+    top: 60px;
+    left: 215px;
+}
+
+.fondo p{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.03em;
+}
+
+.dir {
+    top: 84px;
+    color: #FFFFFF;
+}
+
+.mail{
+    top: 137px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel{
+    top: 164px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
