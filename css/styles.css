@@ -1,0 +1,111 @@
+:root{
+    --blue: #2196F3;
+    --black: #212121;
+    --gray: #757575;
+    --bg: #2F303A;
+    --ft: rgba(255, 255, 255, 0.6);
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: inline-block;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 31px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+.menu:hover{
+    color: var(--blue);
+}
+.contacts{
+    color: gray;
+}
+
+header{
+    background: white;
+}
+
+.action-container{
+    background: var(--bg);
+    color: white;
+    text-align: center;
+}
+
+#main-title{
+    line-height: 60px;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+#boton{
+    background-color: var(--blue);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.title{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.servicios{
+    display: flex;
+}
+
+.contenido-serv{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.meet-cards{
+    background: #F5F4FA;
+}
+
+.wrp-img{
+    background: white;
+}
+
+.pie{
+    background: var(--bg);
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400; 
+}
+
+.cont{
+    color: var(--ft);  
+}
+
+.dir{
+    color: white;
+}
+
+/* Portaflio styles */
+
