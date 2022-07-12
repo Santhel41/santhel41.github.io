@@ -4,29 +4,46 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="Chrome">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GoI Markup hw 02</title>
+    
+        <title>GoI Markup hw 03</title>
+    <!-- Normalizador-->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      />
+    
+    <!-- Estilos de la pagina-->
         <link rel="stylesheet" href="css/styles.css"/>
+    
+    
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
     </head>
     
 <body>
-    <header class="header">
-        <a class="logo" href="#">WebStudio</a>
+    <header> 
+        <div  class="header-container">
+            <a class="logo" href="#">WebStudio</a> 
 
-        <nav class="nav-container">
-            <ul class="nav-bar">
-                <li><a class="menu" href="/index.html">Estudio</a></li>
-                <li><a class="menu" href="/portafolio.html">Portafolio</a></li>
-                <li><a class="menu" href="Contactos">Contactos</a></li>
-
-                <li><a class="contacts menu" id="enlaceMail" href="mailto:webstudio@example.com"> webstudio@example.com</a></li>
-                <li><a class="contacts menu" id="enlaceTel" href="tel:+5712345678">+57 1234 5678</a></li>
-            </ul>
-        </nav>
-        
+            <nav class="nav-container">
+                <ul>
+                    <span>
+                        <li class="menu"><a class="menu-text" href="/index.html">Estudio</a></li>
+                        <li class="menu"><a class="menu-text" href="/portafolio.html">Portafolio</a></li>
+                        <li class="menu"><a class="menu-text" href="Contactos">Contactos</a></li>
+                    </span>
+                    <span class="direcciones">
+                        <li class="menu"><a class="contacts menu-text" id="enlaceMail" href="mailto:webstudio@example.com"> webstudio@example.com</a></li>
+                        <li class="menu"><a class="contacts menu-text" id="enlaceTel" href="tel:+5712345678">+57 1234 5678</a></li>
+                    </span>
+                </ul>
+            </nav>
+        </div>
     </header>
+        
+
 <main>
     <section class="navigation-buttons">
         <span class="botones">
@@ -34,7 +51,7 @@
                 <p>Todo</p>
             </button>
             <button class="nav-boton">
-                <p>Sitios Web</p>
+                <p>Sitios-web</p>
             </button>
             <button class="nav-boton">
                 <p>Aplicaciones</p>
@@ -50,7 +67,7 @@
 
     <section class="cards-container">
         <ul class="portafolio-cards">
-            <li class="card">
+            <li class="card tarjeta-portafolio">
                 <img src="/images/tecnoduck.jpg" 
                         rel="tecnoduck"
                         width="370x" 
@@ -59,16 +76,16 @@
                 <p>Sitio-web</p>
             </li>
       
-            <li class="card">
+            <li class="card tarjeta-portafolio broken-card">
                 <img src="/images/poster.jpg" 
                 rel="Poster Nueva Orleans"
                 width="370x" 
                 height="294x"/>
-                <h4>Poster de Nueva Orleans vs Estrella Dorada</h4>
+                <h4>Poster de Nueva Orleans vs </br>Estrella Dorada</h4>
                 <p>Diseño</p>
             </li>
       
-            <li class="card">
+            <li class="card tarjeta-portafolio">
                 <img src="/images/restaurante.jpg" 
                 rel="Restaurante Seafood"
                 width="370x" 
@@ -77,7 +94,7 @@
                 <p>Aplicaciones</p>
             </li>
      
-            <li class="card">   
+            <li class="card tarjeta-portafolio">  
                  <img src="/images/prime.jpg" 
                 rel="Proyecto Prime"
                 width="370x" 
@@ -86,7 +103,7 @@
                 <p>Marketing</p>
             </li>
     
-            <li class="card">
+            <li class="card tarjeta-portafolio">
                 <img src="/images/cajas.jpg" 
                 rel="Proyecto Cajas"
                 width="370x" 
@@ -95,7 +112,7 @@
                 <p>Aplicaciones</p>
             </li>
         
-            <li class="card">
+            <li class="card tarjeta-portafolio">
                 <img src="/images/inspiracion.jpg" 
                 rel="La inspiracion no tiene limites"
                 width="370x" 
@@ -104,7 +121,7 @@
                 <p>Sitio-web</p>
             </li>
       
-            <li class="card">
+            <li class="card tarjeta-portafolio">
                 <img src="/images/limitada.jpg" 
                 rel="Edicion limitada"
                 width="370x" 
@@ -113,7 +130,7 @@
                 <p>Diseño</p>
             </li>
      
-            <li class="card">
+            <li class="card tarjeta-portafolio">
                 <img src="/images/lab.jpg" 
                 rel="Proyecto Lab"
                 width="370x" 
@@ -122,7 +139,7 @@
                 <p>Marketing</p>
             </li>
     
-            <li class="card">
+            <li class="card tarjeta-portafolio">
                 <img src="/images/negocio.jpg" 
                 rel="Negocio en crecimiento"
                 width="370x" 
@@ -135,12 +152,12 @@
 </main>
  
 <footer class="pie">
-    <address class="fondo">
-        <a class="logo foot" href="#">WebStudio</a>
+    <a class="logo" href="#">WebStudio</a>
+    <address class="footer-text">
         <p class="dir"> Calz. Ticomán 500, Ciudad de <br> México, CDMX, México</p>
         <p class="cont">webstudio@example.com</p>
         <p class="cont">+57 1234 5678</p>
-    </address>
+</address>
 </footer>
 </body>
 </html>
