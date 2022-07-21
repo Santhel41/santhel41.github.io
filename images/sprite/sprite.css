@@ -1,0 +1,74 @@
+:root {
+  --blue: #2196f3;
+  --black: #212121;
+  --gray: #757575;
+  --bg: #2f303a;
+  --ft: #ffffff99;
+  --botones: #F5F4FA;
+  --social:#AFB1B8;
+}
+
+
+.icon-telefono {
+  width: 10px;
+  height: 16px;
+  background-position: 0 0;
+  fill: var(--gray);
+  margin-right: 10px;
+}
+
+
+.icon-Logo, .icon-Logo-1, .icon-Logo-2, 
+.icon-Logo-3, .icon-Logo-4, .icon-Logo-5{
+  fill: var(--social);
+  height: 81px;
+  width: 170px;
+
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  align-items: center;
+}
+.icon-sobre {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--gray)
+}
+
+.icon-instagram {
+  width: 48px;
+  height: 48px;
+  fill: var(--social);
+
+}
+.icon-twitter {
+  width: 48px;
+  height: 48px;
+  fill: var(--social);
+}
+.icon-facebook {
+  width: 48px;
+  height: 48px;
+  fill: var(--social);
+}
+.icon-linkedin {
+  width: 48px;
+  height: 48px;
+  fill: var(--social);
+}
+.icon-astronauta {
+  width: 70px;
+  height: 70px;
+}
+.icon-diagrama {
+  width: 70px;
+  height: 70px;
+}
+.icon-reloj {
+  width: 70px;
+  height: 70px;
+}
+.icon-antena {
+  width: 70px;
+  height: 70px;
+}
