@@ -1,0 +1,163 @@
+/* definicion de variables */
+
+:root{
+    --blue: #2196F3;
+    --black: #212121;
+    --gray: #757575;
+    --bg: #2F303A;
+    --ft: rgba(255, 255, 255, 0.6);
+
+}
+
+/* Fuente del texto */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--black)
+}
+
+/* Barra de navegacion */
+
+header{
+    background: #FFF;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 31px;
+}
+
+nav{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+.menu:hover, .menu:focus {
+    color: var(--blue);
+}
+
+.contacts{
+    color: var(--gray);
+}
+
+/* Contenedor call to action */
+
+.action-container{
+    background: var(--bg);
+    color: #fff;
+    text-align: center;
+}
+
+.main-title{
+    line-height: 60px;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+#boton{
+    background-color: var(--blue);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+
+}
+
+/* Nuestros servicios */
+.title{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.servicios{
+    display: flex;
+}
+
+.contenido-serv{
+    font-weight: 400;
+    font-size: 14px;
+}
+/* A que nos dedicamos */
+
+
+/* titutlos */
+h2 {
+    text-align: center;
+}
+
+
+/* Tarjetas de presentación */
+.meet-cards{
+    background: #F5F4FA;
+}
+
+.wrp-img{
+    background: #fff;
+}
+
+
+/* Pide de página */
+.pie{
+    background: var(--bg);
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400; 
+}
+
+.cont{
+    color: var(--ft);  
+}
+
+.dir{
+    color: #fff;
+}
+
+/* Portaflio styles */
+
+.nav-boton {
+    padding: 6px 19px;
+    border-radius: 4px;
+    border: 1px;
+    
+    background: #F5F4FA;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+.nav-boton:hover, .nav-boton:focus {
+    cursor: pointer;
+    background-color: var(--blue);
+  }
+
+.card-products:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
